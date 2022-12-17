@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0c4e663;
+}
+
+header {
+    height: 10%;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #76BEBE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F5F5F5;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #Fff;
+}
+
+.container div {
+    text-align: center;
+}
+
+h1 {
+    color: #CF509C;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Alegreya Sans SC';
+    margin-top: 100px;
+}
+
+#form {
+    width: 40%;
+    margin: 0 50px;
+}
+
+#form form{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 10px 0 20px 0;
+}
+
+button {
+    background-color: #76BEBE;
+    color: #F5F5F5;
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+    margin: 0 0 0 110px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #88adad;
+    cursor: pointer;
+}
+
+th {
+    background-color: #000;
+    color: #F5F5F5;
+    padding: 5px;
+}
+
+th:last-child {
+    background-color: #767373;
+}
+
+td {
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+table img {
+    width: 25px;
+    height: 25px;
+}

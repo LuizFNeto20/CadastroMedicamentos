@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <span>home</span>
+        <span>Cadastro de Medicamentos</span>
+        <span>Cadastro de Vacinas</span>
+        <span>Cadastro de Cosméticos</span>
+    </header>
+
+    <div class="container">
+        <img src="./assets/medicamento.png" alt="">
+        <div>
+            <h1>Cadastro de Medicamentos</h1>
+            <h2>Farmácia da Gente</h2>
+        </div>
+    </div>
+
+    <section class="">
+        <div id="form">
+            <form onsubmit="addMedicamentos()">
+                <label for="MedNome">Nome do Medicamento</label>
+                <input autocomplete="off" type="text" required placeholder="Bonpagrip" name="MedNome" id="MedNome">
+
+                <label for="QtdDisponivel">Quantidade Disponível</label>
+                <input autocomplete="off" type="text" required placeholder="100" name="QtdDisponivel" id="QtdDisponivel">
+
+                <label for="MedClasse">Classe de Medicamento</label>
+                <input autocomplete="off" type="text" required placeholder="Antibiótico" name="MedClasse" id="MedClasse">
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <div>
+            <table id="Table">
+                <tr>
+                    <th>ID</th>
+                    <th>Medicamento</th>
+                    <th>Quantidade</th>
+                    <th>Classe de Medicamento</th>
+                    <th>Remover</th>
+                </tr>
+            </table>
+    </section>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
